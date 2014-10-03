@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20141002224612) do
   enable_extension "plpgsql"
 
   create_table "users", force: true do |t|
+    t.string   "address"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
