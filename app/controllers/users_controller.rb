@@ -4,4 +4,12 @@ class UsersController < ApplicationController
     
   end
 
+  def create
+    p params[:users][:address]
+    
+  end
+
+
+
+
 end
